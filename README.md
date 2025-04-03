@@ -18,11 +18,4 @@ Welcome to the **CyberTech Ninja CTF Challenge!** Your mission is to uncover a *
   ```sh  
   echo "RkxBR3tIaWRkZW5faW5fTG9nc30=" | base64 --decode  
   ```  
-
-## 🏆 Goal:  
-Find the **flag** in this format:  
-```
-FLAG{something_secret}  
-```  
-
 Good luck, and happy hunting! 🚀
