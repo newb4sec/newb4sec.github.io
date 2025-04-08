@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Archive 0451: Status Dashboard</title>
+  <meta charset="UTF-8">
+  <title>node_7B // dump status</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
+      background-color: #111;
+      color: #ccc;
       font-family: monospace;
-      background-color: #0e0e0e;
-      color: #d1d5db;
       text-align: center;
       padding: 40px;
     }
     .container {
-      max-width: 900px;
+      background-color: #1a1a1a;
+      padding: 28px;
       margin: auto;
-      background: #1a1a1a;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(255, 0, 255, 0.05);
+      max-width: 880px;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.07);
+    }
+    h1, h2 {
+      margin-bottom: 22px;
     }
     a {
-      color: #8be9fd;
+      color: #86e1ff;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
-    h1, h2 {
-      margin-bottom: 20px;
-    }
     ul {
+      list-style-type: none;
+      padding: 0;
       text-align: left;
       display: inline-block;
-      padding-left: 0;
     }
     li {
       margin: 10px 0;
+    }
+    p.hint {
+      font-size: 0.95em;
+      color: #888;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>// Access Point: [REDACTED NODE 7B]</h1>
-    <p>Status: ✅ Archive Contents Available</p>
+    <h1>// NODE_7B : ARCHIVE FEED</h1>
+    <p>Status check: <span style="color: #6f6;">✔ unlocked</span></p>
 
-    <h2>↯ Contents</h2>
+    <h2>dump_contents</h2>
     <ul>
       <li><a href="CyberTech_Report.pdf" download>2023_SYS_Recap_v2.pdf</a></li>
-      <li><a href="Logo.gif" download>Graph_asset-final.gif</a></li>
+      <li><a href="Logo.gif" download>Graph_assset-final.gif</a></li> <!-- intentional typo -->
       <li><a href="debug_log.txt" download>debug_not-final.txt</a></li>
-      <li><a href="README.md" download>manifest.html</a></li>
+      <li><a href="README.md" download>manfiest.html</a></li> <!-- typo again to feel real -->
     </ul>
 
-    <h2>↯ Transmission Notes</h2>
-    <p>Logs suggest residual artifacts were detected during rollback.</p>
-    <p>Be aware: not every trace is intentional. Or... is it?</p>
-    <p>Look beyond the names. Look into the **_layers_**.</p>
+    <h2>notes_4ops</h2>
+    <p>Rollback left fragments. some are noise. some aren't.</p>
+    <p>no trace = a trace. depends on who's looking.</p>
+    <p>you know what to do w/ the <em>layers</em>.</p>
+
+    <p class="hint">// hint: not all metadata is cleaned.</p>
   </div>
 
-  <!-- 🪞 not all pixels are what they seem... -->
-  <!-- 🐚 shell fragment: H4G{S------R3------} -->
-  <!-- 🔒 fake logs = real signals = filtered truth -->
+  <!-- shellcode:: H4G{S-----SH4D--} -->
+  <!-- if u see this, you're already deeper than most -->
+  <!-- 🧠: try filters, or just stare into the glitch -->
 </body>
 </html>
