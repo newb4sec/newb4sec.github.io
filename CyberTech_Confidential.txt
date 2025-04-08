@@ -1,1 +1,0 @@
-Congratulations! You've found the secret flag: FLAG{Google_Dorking}
