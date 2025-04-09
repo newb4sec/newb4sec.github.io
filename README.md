@@ -1,1 +1,1 @@
-Good luck, and happy hunting! 🚀
+Good luck, and happy hunting! 
